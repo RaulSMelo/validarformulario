@@ -4,9 +4,16 @@ Classe simples para validar os valores de entrada dos inputs dos formulário HTM
 
 ## Utilização
 
+## Instalação
+
+Para instalar essa dependência bats executar o comando abaixo:
+
+```shel
+composer require raulsmelo/validarformulario
+```
+
 Para usar a classe basta seguir o exemplo abaixo:
 
--
 ```HTML
     <form method="POST">
         <input name="name-required@string">
@@ -40,3 +47,6 @@ Para usar a classe basta seguir o exemplo abaixo:
  $post = (new ValidateForm($_POST))->getPostsValid();
 
 ```
+
+## Requisitos
+- Nessessário PHP 7.0 ou maior 
