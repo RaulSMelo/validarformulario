@@ -24,6 +24,7 @@ Para usar a classe basta seguir o exemplo abaixo:
 ```
 
 ```PHP
+<?php 
 
  require_once __DIR__ . '/vendor/autoload.php';
 
@@ -33,7 +34,9 @@ Para usar a classe basta seguir o exemplo abaixo:
  * @param $_POST super global do PHP que contém todos o input que tem o atributo name declarado
  * 
  * $post recebe uma novo array com os valores filtrados
+ * 
+ * OBS: Caso alguns dos valores de entradas falhe na aplicação dos filtros e retornado false
  * */
  $post = (new ValidateForm($_POST))->getPostsValid();
- 
+
 ```
