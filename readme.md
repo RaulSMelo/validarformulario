@@ -2,15 +2,16 @@
 
 Classe simples para validar os valores de entrada dos inputs dos formulário HTML
 
-## Utilização
 
 ## Instalação
 
-Para instalar essa dependência bats executar o comando abaixo:
+Para instalar essa dependência basta executar o comando abaixo:
 
 ```shel
 composer require raulsmelo/validarformulario
 ```
+
+## Utilização
 
 Para usar a classe basta seguir o exemplo abaixo:
 
