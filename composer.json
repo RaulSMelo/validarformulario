@@ -1,0 +1,26 @@
+{
+    
+    "name": "raulsmelo/validarformulario",
+    "description": "Simples classe para verificar valores de entrada do formulário method POST HTML",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+        "name": "Raul Soares Melo",
+        "email": "raul.melo0901.ti@gmail.com",
+        "role": "developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "RSM\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+     
+}
